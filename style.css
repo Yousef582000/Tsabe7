@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: url(luxury-green-jumma-ramadan-islamic-background-banner-with-gold-pattern-mandala_660620-178.avif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  
+ 
+}
+.image{
+   margin-top: 45px;
+    width: 85px;
+    height: 85px;
+}
+
+h1{
+    text-align: center;
+    /* margin-top: 50px; */
+    color:rgb(150, 85, 0);
+   
+}
+.iner{
+    height: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    position: relative;
+    text-align: center;
+    height: 220px;
+    width: 30%;
+    margin-left: 30px;
+    border: solid 2px gray;
+    background: rgba(152, 197, 100, 0.6);
+    
+}
+.one h2{
+    margin-top: 40px;
+    color: rgb(110, 70, 18);
+    font-size: 1.8em;
+}
+.one .btn{
+   cursor: pointer;
+    padding:30px 30px;
+    border-radius: 50%;
+    background-color: rgb(17, 152, 17);
+    border: none;
+    color: #fff;
+}
+.one .btn:hover{
+    color: rgb(32, 192, 38);
+    background-color: #fff;
+    font-size: 22px;
+}
+p{
+    font-size: 18px;
+}
+.relod{
+    position: absolute;
+    right: 0;
+padding: 12px 12px;
+border-radius:12px;
+border: solid 2px;
+
+background-color: transparent;
+color: rgb(32, 192, 38);
+font-size: 19px;
+   }
+  .relod:hover{
+    background-color: rgb(32, 192, 38);;
+    color: #fff;
+
+  }
+  @media screen and (max-width:500px) {
+    body{
+        /* height: 100vh; */
+    
+        background-repeat: repeat;
+    }
+
+    .iner{
+        height: 780px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .one{
+        margin: 10px 0 10px 0;
+    }
+    
+  }
